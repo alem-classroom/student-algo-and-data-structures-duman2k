@@ -1,4 +1,6 @@
 def linear_search(lst, to_find):
+    if len(lst) < 1:
+        return -1
     index = 0
     for item in lst:
         if item == to_find:
